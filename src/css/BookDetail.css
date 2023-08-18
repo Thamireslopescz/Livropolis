@@ -1,0 +1,34 @@
+.book-detail {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  color: #333; /* Dark gray text */
+}
+
+.book-detail h2 {
+  margin-top: 0;
+  color: #663399; /* Purple */
+}
+
+.book-detail p {
+  margin: 10px 0;
+}
+
+.book-detail button {
+  background-color: #512da8; /* Darker purple */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.book-detail button:hover {
+  background-color: #663399; /* Dark purple */
+  transform: scale(1.05);
+}

@@ -1,0 +1,44 @@
+.book-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: #ddd; /* Light gray text */
+  }
+  
+  .book-list-sidebar {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .book-list-content {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .book-list h2 {
+    color: #663399; /* Purple */
+    margin-bottom: 10px;
+  }
+  
+  .book-list button {
+    background-color: #512da8; /* Darker purple */
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  .book-list button:hover {
+    background-color: #663399; /* Dark purple */
+    transform: scale(1.05);
+  }
+  

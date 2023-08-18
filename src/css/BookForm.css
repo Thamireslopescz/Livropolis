@@ -1,0 +1,63 @@
+.book-form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff3e6; /* Light peach */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+  color: #333; /* Dark gray text */
+}
+
+.book-form h2 {
+  margin-top: 0;
+  color: #ff5722; /* Orange */
+}
+
+.book-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #512da8; /* Darker purple */
+}
+
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.book-form textarea {
+  resize: vertical;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-form button {
+  background-color: #512da8; /* Darker purple */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.book-form button.cancel-button {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 10px;
+  transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.book-form button:hover {
+  background-color: #663399; /* Dark purple */
+  transform: scale(1.05);
+}
