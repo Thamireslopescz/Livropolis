@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Biblioteca Mágica de Livrópolis - Aplicativo de Gerenciamento
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao projeto da Biblioteca Mágica de Livrópolis! Neste projeto, nosso objetivo é desenvolver um aplicativo React encantador e funcional que sirva como um sistema de gerenciamento para a biblioteca mágica em Livrópolis. Os alunos serão desafiados a aplicar conceitos fundamentais de React, incluindo componentização, gerenciamento de estado e validação de formulários, enquanto trazem à vida a atmosfera mágica e encantadora da cidade.
 
-## Available Scripts
+## Objetivos
 
-In the project directory, you can run:
+- Criar um sistema de gerenciamento de livros mágicos onde é possível adicionar, editar, visualizar e excluir livros.
+- Aplicar componentização para organizar e reutilizar código de forma eficiente.
+- Utilizar o React para criar uma interface de usuário interativa e responsiva.
+- Demonstrar habilidades em estilização com CSS para criar uma atmosfera mágica e atraente.
+- Incorporar elementos de animação e design para aprimorar a experiência do usuário.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O aplicativo oferece as seguintes funcionalidades principais:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Adicionar Livros**: Os usuários podem adicionar novos livros à coleção, preenchendo informações como título, autor, ano de publicação, gênero e descrição.
 
-### `npm test`
+2. **Editar Livros**: Livros existentes podem ser editados para atualizar informações, exceto a data de cadastro e o ID.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Excluir Livros**: Os usuários podem remover livros da coleção, mas uma confirmação será solicitada para evitar exclusões acidentais.
 
-### `npm run build`
+4. **Visualizar Livros**: Todos os livros na coleção são exibidos em uma lista. Cada item da lista exibe o título, autor e ano de publicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. **Pesquisa de Livros**: Uma funcionalidade de pesquisa permite aos usuários encontrar livros específicos por título ou autor.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instruções de Instalação e Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Certifique-se de ter o Node.js e o npm instalados em seu ambiente.
+2. Clone este repositório para o seu computador usando o comando: `git clone https://github.com/seu-usuario/livropolis-library.git`
+3. Navegue até o diretório do projeto: `cd livropolis-library`
+4. Instale as dependências do projeto: `npm install`
+5. Inicie o servidor de desenvolvimento: `npm start`
+6. O aplicativo estará acessível em seu navegador no endereço: `http://localhost:3000`
 
-### `npm run eject`
+## Contribuição
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este projeto foi criado como parte de um desafio de aprendizado. Se você deseja contribuir para aprimorar este aplicativo, fique à vontade para fazer um fork deste repositório e enviar um pull request com suas melhorias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Créditos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por [Thamires Lopes]([https://github.com/seu-usuario](https://github.com/Thamireslopescz/Livropolis))
