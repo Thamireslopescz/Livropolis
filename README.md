@@ -27,7 +27,7 @@ O aplicativo oferece as seguintes funcionalidades principais:
 ## Instruções de Instalação e Uso
 
 1. Certifique-se de ter o Node.js e o npm instalados em seu ambiente.
-2. Clone este repositório para o seu computador usando o comando: `git clone https://github.com/seu-usuario/livropolis-library.git`
+2. Clone este repositório para o seu computador usando o comando: `git clone https://github.com/Thamireslopescz/livropolis-library.git`
 3. Navegue até o diretório do projeto: `cd livropolis-library`
 4. Instale as dependências do projeto: `npm install`
 5. Inicie o servidor de desenvolvimento: `npm start`
@@ -39,4 +39,4 @@ Este projeto foi criado como parte de um desafio de aprendizado. Se você deseja
 
 ## Créditos
 
-Desenvolvido por [Thamires Lopes]([https://github.com/seu-usuario](https://github.com/Thamireslopescz/Livropolis))
+Desenvolvido por [Thamires Lopes]([https://github.com/Thamireslopescz](https://github.com/Thamireslopescz/Livropolis))
